@@ -97,28 +97,20 @@ input[type="text"] {
     width: 60%;
 }
 
-::-webkit-input-placeholder {color:rgba(0,0,0,0.12)}
-::-moz-placeholder          {color:rgba(0,0,0,0.12)}
-:-moz-placeholder           {color:rgba(0,0,0,0.12)}
-:-ms-input-placeholder      {color:rgba(0,0,0,0.12)}
+::-webkit-input-placeholder {color:rgba(0,0,0,0.38);}
+::-moz-placeholder          {color:rgba(0,0,0,0.38);}
+:-moz-placeholder           {color:rgba(0,0,0,0.38);}
+:-ms-input-placeholder      {color:rgba(0,0,0,0.38);}
 
-input[placeholder],
-input::-moz-placeholder,
-input:-moz-placeholder,
-input:-ms-input-placeholder {
-    text-overflow:ellipsis;
-}
 
-input[type="text"]::-webkit-input-placeholder,
-input[type="text"]::-moz-placeholder,
-input[type="text"]:-moz-placeholder,
-input[type="text"]:-ms-input-placeholder,
-input[type="text"]:focus::-webkit-input-placeholder,
-input[type="text"]:focus::-moz-placeholder,
-input[type="text"]:focus:-moz-placeholder,
-input[type="text"]:focus:-ms-input-placeholder {
-    opacity: 0; transition: opacity 0.3s ease;
-}
+input[type="text"]::-webkit-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+input[type="text"]::-moz-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+input[type="text"]:-moz-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+input[type="text"]:-ms-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+input[type="text"]:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input[type="text"]:focus::-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input[type="text"]:focus:-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
 
 
 
