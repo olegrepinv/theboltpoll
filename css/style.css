@@ -6,6 +6,7 @@ body {
     padding: 20px;
     border: 0;
     font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: rgba(0,0,0,.87);
 }
 
 form {
@@ -17,6 +18,53 @@ form {
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
     word-wrap: break-word;
 }
+h1 {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 34px;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+    font-weight: 400;
+}
+
+.heading {   
+    color: #000;
+    font-size: 20px;
+    line-height: 135%;
+    width: 100%;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+}
+
+label:before {
+    display: block;
+    float: left;
+    margin-right: 7px;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 2px solid rgba(0,0,0,0.54);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+input:checked ~ label {
+    color: red;
+}
+
+input:checked ~ label:before {
+    background-color: red;
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
