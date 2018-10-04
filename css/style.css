@@ -287,21 +287,7 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 16px;
         box-sizing: border-box;
-    }
-    input[type="text"] {
-        -webkit-appearance: none;
-        width: 60% !important;
-        border: 0;
-        border-bottom: 1px solid rgba(0,0,0,0.12);
-        border-radius: 0;
-        padding-left: 0;
-    }
-    input[type="submit"] {
-        width: 60% !important;
-        margin: 0 auto !important;
-    }
-    
-    
+    }   
 }
 
 /* iPads (landscape) ----------- */
@@ -317,6 +303,17 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 24px 16px 32px;
         box-sizing: border-box;
     }
+    input[type="text"] {
+        -webkit-appearance: none;
+        width: 60% !important;
+        border: 0;
+        border-bottom: 1px solid rgba(0,0,0,0.12);
+        border-radius: 0;
+        padding-left: 0;
+    }
+    input[type="submit"] {
+        width: auto !important;
+    }
 }
 
 /* iPads (portrait) ----------- */
@@ -331,6 +328,17 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 24px 16px 32px;
         box-sizing: border-box;
+    }
+    input[type="text"] {
+        -webkit-appearance: none;
+        width: 60% !important;
+        border: 0;
+        border-bottom: 1px solid rgba(0,0,0,0.12);
+        border-radius: 0;
+        padding-left: 0;
+    }
+    input[type="submit"] {
+        width: auto !important;
     }
 }
 
