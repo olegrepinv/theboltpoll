@@ -163,6 +163,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
+    input[type="submit"] {
+        width: 100%;
+    }
 /*
     body {
         padding: 32px 16px;
@@ -238,6 +241,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
+    input[type="submit"] {
+        width: 100%;
+    }
     
 }
 
@@ -253,6 +259,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
+    }
+    input[type="submit"] {
+        width: 100%;
     }
 }
 
@@ -354,6 +363,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
     h1 {
         font-size: 34px;
         line-height: 120%;
+    }
+    input[type="submit"] {
+        width: 100%;
     }
     
 }
