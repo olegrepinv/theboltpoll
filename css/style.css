@@ -303,12 +303,30 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
     /* Styles */
+    body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        padding: 20px;
+        background-color: #FFD837;
+        color: rgba(0,0,0,.87);
+        box-sizing: border-box;
+    }
+    
+    form {
+        background-color: white;
+        padding: 32px 40px 64px;
+        border-radius: 4px;
+        width: 620px;
+        margin: 20px auto;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+        word-wrap: break-word;
+    }
 
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
     /* Styles */
+
 }
 
 /* iPhone 4 ----------- */
@@ -324,6 +342,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
         margin: 0 auto;
         padding: 24px 16px 32px;
         box-sizing: border-box;
+    }
+    h1 {
+        font-size: 34px;
+        line-height: 120%;
     }
     
 }
