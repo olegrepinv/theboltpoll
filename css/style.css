@@ -245,10 +245,10 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         box-sizing: border-box;
     }
     input[type="submit"] {
-        width: auto;
+        width: 100%;
     }
     input[type="text"] {
-        width: 80%;
+        width: 100%;
     }
     
 }
