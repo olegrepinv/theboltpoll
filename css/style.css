@@ -350,6 +350,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
     label:before {
         display: block;
         float: left;
+        position: relative;
+        top: 0;
         margin-right: 7px;
         content: '';
         width: 20px;
