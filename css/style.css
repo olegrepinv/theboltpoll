@@ -118,8 +118,6 @@ input[type="text"]:focus {
 }
 
 input[type="submit"] {
-    margin: 0 auto;
-    display: block;
     -webkit-appearance: none;
     background-color: #FFD837;
     border: 0;
