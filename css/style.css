@@ -297,7 +297,7 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
     }
     input[type="submit"] {
         width: 60% !important;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
     
     
