@@ -236,6 +236,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
+    label:before {
+        top: 0;
+    }
     
 }
 
@@ -252,6 +255,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
+    label:before {
+        top: 0;
+    }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -266,6 +272,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 16px;
         box-sizing: border-box;
+    }
+    label:before {
+        top: 0;
     }
     
 }
@@ -283,6 +292,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
+    label:before {
+        top: 0;
+    }
 }
 
 /* iPads (portrait) ----------- */
@@ -297,6 +309,9 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
+    }
+    label:before {
+        top: 0;
     }
 }
 
@@ -348,19 +363,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
         line-height: 120%;
     }
     label:before {
-        display: block;
-        float: left;
-        position: relative;
         top: 0;
-        margin-right: 7px;
-        content: '';
-        width: 20px;
-        height: 20px;
-        background-color: white;
-        border: 2px solid rgba(0,0,0,0.54);
-        border-radius: 50%;
-        box-sizing: border-box;
-        cursor: pointer;
     }
     
 }
