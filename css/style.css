@@ -81,9 +81,6 @@ label {
 
 label:before {
     display: block;
-    float: left;
-    position: relative;
-    top: 3px;
     margin-right: 7px;
     content: '';
     width: 20px;
