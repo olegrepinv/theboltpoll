@@ -71,7 +71,7 @@ label {
     display: flex;
     justify-items: flex-start;
     align-items: center;
-    padding-bottom: 16px;
+    padding-bottom: 24px;
 }
 
 .list div:last-of-type label {
