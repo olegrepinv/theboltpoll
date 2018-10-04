@@ -264,7 +264,7 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
     form {
         width: 100%;
         margin: 0 auto;
-        padding: 0;
+        padding: 16px;
         box-sizing: border-box;
     }
     
@@ -322,7 +322,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     form {
         width: 100%;
         margin: 0 auto;
-        padding: 0;
+        padding: 24px 16px 32px;
         box-sizing: border-box;
     }
     
