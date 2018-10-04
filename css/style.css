@@ -347,6 +347,19 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 34px;
         line-height: 120%;
     }
+    label:before {
+        display: block;
+        float: left;
+        margin-right: 7px;
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border: 2px solid rgba(0,0,0,0.54);
+        border-radius: 50%;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
     
 }
 
