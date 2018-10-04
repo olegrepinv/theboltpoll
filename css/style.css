@@ -169,66 +169,6 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
     input[type="text"] {
         width: 100%;
     }
-/*
-    body {
-        padding: 32px 16px;
-        font-size: 40px;
-    }
-    form {
-        width: 88%;
-        margin: 0 auto;
-}
-    h1 {
-        font-size: 80px;
-        line-height: 120%;
-        margin: 64px 0;
-    }
-    .list {
-        margin: 0;
-        padding: 32px 0 64px;
-    }
-    .heading {
-        font-size: 40px;
-        line-height: 140%;
-        padding-bottom: 56px;
-    }
-    label {
-        display: block;
-        margin-bottom: 40px;
-        font-size: 40px;
-        line-height: 120%;
-    }
-    label:before {
-        position: relative;
-        margin-right: 24px;
-        width: 64px;
-        height: 64px;
-        border-width: 8px;
-    }
-    input:checked ~ label:before {
-        box-shadow: inset 0 0 0 12px white;
-        border-width: 8px; 
-    }
-    input[type="text"] {
-        border-bottom: 4px solid rgba(0,0,0,0.12);
-        font-size: 64px;
-        line-height: 5.8rem;
-        margin: 0 0 64px;
-        width: 100%;
-    }
-    input[type="text"]:focus {
-        border-bottom-width: 8px;
-        margin-bottom: 60px;
-    }
-    input[type="submit"] {
-        line-height: 6.9rem;
-        padding: 8px 0 0;
-        border-radius: 64px;
-        font-size: 56px;
-        width: 100%;
-        margin-bottom: 64px;
-    }
-    */
 }
 
 /* Smartphones (landscape) ----------- */
@@ -243,14 +183,7 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 24px 16px 32px;
         box-sizing: border-box;
-    }
-    input[type="submit"] {
-        width: 100%;
-    }
-    input[type="text"] {
-        width: 100%;
-    }
-    
+    }  
 }
 
 /* Smartphones (portrait) ----------- */
