@@ -68,7 +68,9 @@ input[type="radio"] {
 }
 
 label {
-    display: block;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
     padding-bottom: 16px;
 }
 
@@ -236,9 +238,6 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
-    label:before {
-        top: 0;
-    }
     
 }
 
@@ -255,9 +254,6 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
-    label:before {
-        top: 0;
-    }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -272,9 +268,6 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 16px;
         box-sizing: border-box;
-    }
-    label:before {
-        top: 0;
     }
     
 }
@@ -292,9 +285,6 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         padding: 0;
         box-sizing: border-box;
     }
-    label:before {
-        top: 0;
-    }
 }
 
 /* iPads (portrait) ----------- */
@@ -309,9 +299,6 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
-    }
-    label:before {
-        top: 0;
     }
 }
 
@@ -361,9 +348,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
     h1 {
         font-size: 34px;
         line-height: 120%;
-    }
-    label:before {
-        top: 0;
     }
     
 }
