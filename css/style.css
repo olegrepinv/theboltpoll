@@ -102,6 +102,7 @@ input[type="text"] {
     -webkit-appearance: none;
     border: 0;
     border-bottom: 1px solid rgba(0,0,0,0.12);
+    border-radius: 0;
     font-size: 20px;
     line-height: 1.8rem;
     margin: 0 0 16px;
