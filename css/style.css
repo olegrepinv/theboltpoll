@@ -289,6 +289,7 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
     }
     input[type="text"] {
         -webkit-appearance: none;
+        width: 60% !important;
         border: 0;
         border-bottom: 1px solid rgba(0,0,0,0.12);
         border-radius: 0;
