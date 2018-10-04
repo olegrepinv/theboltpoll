@@ -115,6 +115,7 @@ input[type="text"]:focus {
 }
 
 input[type="submit"] {
+    -webkit-appearance: none;
     background-color: #FFD837;
     border: 0;
     line-height: 2.4rem;
@@ -125,7 +126,7 @@ input[type="submit"] {
     text-transform: uppercase;
     color: rgba(0,0,0,0.72);
     cursor: pointer;
-    -webkit-appearance: none;
+    
 
 }
 
