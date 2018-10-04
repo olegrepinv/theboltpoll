@@ -100,6 +100,7 @@ input:checked ~ label:before {
 }
 input[type="text"] {
     border: 0;
+    border-radius: 50%;
     border-bottom: 1px solid rgba(0,0,0,0.12);
     font-size: 20px;
     line-height: 1.8rem;
