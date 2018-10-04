@@ -29,6 +29,7 @@ body {
     padding: 20px;
     background-color: #FFD837;
     color: rgba(0,0,0,.87);
+    box-sizing: border-box;
 }
 
 form {
@@ -125,27 +126,7 @@ input[type="submit"] {
     font-weight: 600;
     text-transform: uppercase;
     color: rgba(0,0,0,0.72);
-    cursor: pointer;
-    
-
-}
-
-input[type="submit"]::before {
-    display: block;
-    content: 'Send';
-    z-index: 2;
-    /*
-    background-color: #FFD837;
-    border: 0;
-    line-height: 2.4rem;
-    padding: 2px 32px 0;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: rgba(0,0,0,0.72);
-    cursor: pointer;
-    */
+    cursor: pointer; 
 }
 
 ::-webkit-input-placeholder {color:rgba(0,0,0,0.38);}
@@ -166,8 +147,21 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
 
 
 /* Smartphones (portrait and landscape) ----------- */
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
+
+    body {
+        padding: 16px;
+
+    }
+    form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/*
     body {
         padding: 32px 16px;
         font-size: 40px;
@@ -193,6 +187,7 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
     label {
         display: block;
         margin-bottom: 40px;
+        font-size: 40px;
         line-height: 120%;
     }
     label:before {
@@ -225,46 +220,90 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
         width: 100%;
         margin-bottom: 64px;
     }
+    */
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
     /* Styles */
+    body {
+        padding: 16px;
+
+    }
+    form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
     
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
     /* Styles */
+    body {
+        padding: 16px;
+
+    }
+    form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
+    body {
+        padding: 16px;
+
+    }
+    form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
     
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
     /* Styles */
+    body {
+        padding: 16px;
+
+    }
     form {
         width: 100%;
         margin: 0 auto;
-}
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     /* Styles */
+    body {
+        padding: 16px;
+
+    }
     form {
         width: 100%;
         margin: 0 auto;
-}
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
     /* Styles */
+
 }
 
 /* Large screens ----------- */
@@ -276,6 +315,16 @@ input[type="text"]:focus:-ms-input-placeholder {opacity: 0; transition: opacity 
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
+    body {
+        padding: 16px;
+
+    }
+    form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
     
 }
 
